@@ -1,0 +1,38 @@
+{
+  "name": "Cypress_API_Rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serverest",
+    "cy:open": "npx cypress open",
+    "cy:dash": "npx cypress run --record --key b75045a6-30e6-4a30-bf49-c9fccaa422e3",
+    "cy:run": "npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GabrielCBatista/Cypress_API_Rest.git"
+  },
+  "author": "Gabriel C Batista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielCBatista/Cypress_API_Rest/issues"
+  },
+  "homepage": "https://github.com/GabrielCBatista/Cypress_API_Rest#readme",
+  "dependencies": {
+    "cypress-tags": "^0.0.21",
+    "faker": "^5.5.3",
+    "joi": "^17.9.1",
+    "ls": "^0.2.1",
+    "rimraf": "^3.0.2",
+    "yargs": "^13.3.2"
+  },
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.3.1",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}
